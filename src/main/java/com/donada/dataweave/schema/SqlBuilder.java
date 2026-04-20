@@ -1,7 +1,9 @@
 package com.donada.dataweave.schema;
 
 import com.donada.dataweave.dataset.Dataset;
+import org.springframework.stereotype.Component;
 
+@Component
 public class SqlBuilder {
 
     // This class should not execute SQLs
