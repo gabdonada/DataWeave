@@ -1,0 +1,133 @@
+Initialized native services in: /Users/i518630/.gradle/native
+Initialized jansi services in: /Users/i518630/.gradle/native
+Found daemon DaemonInfo{pid=5859, address=[bf22c559-23c7-435a-b95f-d839109409ab port:49378, addresses:[/127.0.0.1]], state=Idle, lastBusy=1778798464860, context=DefaultDaemonContext[uid=6bd337b2-2574-4578-ac21-00baced9fb27,javaHome=/Users/i518630/Library/Java/JavaVirtualMachines/corretto-17.0.12/Contents/Home,javaVersion=17,javaVendor=Amazon.com Inc.,daemonRegistryDir=/Users/i518630/.gradle/daemon,pid=5859,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=BR,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=/Users/i518630/Library/Java/JavaVirtualMachines/corretto-21.0.4/Contents/Home (no Daemon JVM specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=384m, -XX:+HeapDumpOnOutOfMemoryError, -Xms256m, -Xmx512m, -Dfile.encoding=UTF-8, -Duser.country=BR, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=6bd337b2-2574-4578-ac21-00baced9fb27,javaHome=/Users/i518630/Library/Java/JavaVirtualMachines/corretto-17.0.12/Contents/Home,javaVersion=17,javaVendor=Amazon.com Inc.,daemonRegistryDir=/Users/i518630/.gradle/daemon,pid=5859,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=384m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=BR,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 6057). The daemon log file: /Users/i518630/.gradle/daemon/9.4.1/daemon-6057.out.log
+Starting 6th build in daemon [uptime: 10 mins 21.929 secs, performance: 100%, GC rate: 0.00/s, heap usage: 4% of 512 MiB, non-heap usage: 20% of 384 MiB]
+Using 12 worker leases.
+Operational build model parameters: {cachingModelBuilding=false, configurationCache=false, configurationCacheDisabledReason=null, configurationCacheParallelLoad=false, configurationCacheParallelStore=false, configureOnDemand=false, invalidateCoupledProjects=false, isolatedProjects=false, modelAsProjectDependency=false, modelBuilding=false, parallelModelBuilding=false, parallelProjectConfiguration=false, parallelProjectExecution=false, resilientModelBuilding=false}
+Now considering [/Users/i518630/Desktop/DataWeave] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/Users/i518630/Desktop/DataWeave/settings.gradle'.
+Projects loaded. Root project using build file '/Users/i518630/Desktop/DataWeave/build.gradle'.
+Included projects: [root project 'dataweave']
+
+> Configure project :
+Evaluating root project 'dataweave' using build file '/Users/i518630/Desktop/DataWeave/build.gradle'.
+Resolved plugin [id: 'java']
+Resolved plugin [id: 'org.springframework.boot', version: '4.0.5']
+Resolved plugin [id: 'io.spring.dependency-management', version: '1.1.7']
+Applying dependency management to configuration 'annotationProcessor' in project 'dataweave'
+Applying dependency management to configuration 'apiElements' in project 'dataweave'
+Applying dependency management to configuration 'archives' in project 'dataweave'
+Applying dependency management to configuration 'bootArchives' in project 'dataweave'
+Applying dependency management to configuration 'compileClasspath' in project 'dataweave'
+Applying dependency management to configuration 'compileOnly' in project 'dataweave'
+Applying dependency management to configuration 'default' in project 'dataweave'
+Applying dependency management to configuration 'developmentOnly' in project 'dataweave'
+Applying dependency management to configuration 'implementation' in project 'dataweave'
+Applying dependency management to configuration 'mainSourceElements' in project 'dataweave'
+Applying dependency management to configuration 'productionRuntimeClasspath' in project 'dataweave'
+Applying dependency management to configuration 'runtimeClasspath' in project 'dataweave'
+Applying dependency management to configuration 'runtimeElements' in project 'dataweave'
+Applying dependency management to configuration 'runtimeOnly' in project 'dataweave'
+Applying dependency management to configuration 'testAndDevelopmentOnly' in project 'dataweave'
+Applying dependency management to configuration 'testAnnotationProcessor' in project 'dataweave'
+Applying dependency management to configuration 'testCompileClasspath' in project 'dataweave'
+Applying dependency management to configuration 'testCompileOnly' in project 'dataweave'
+Applying dependency management to configuration 'testImplementation' in project 'dataweave'
+Applying dependency management to configuration 'testResultsElementsForTest' in project 'dataweave'
+Applying dependency management to configuration 'testRuntimeClasspath' in project 'dataweave'
+Applying dependency management to configuration 'testRuntimeOnly' in project 'dataweave'
+All projects evaluated.
+Task name matched 'test'
+Selected primary task 'test' from project :
+Starting process 'command '/usr/libexec/java_home''. Working directory: /Users/i518630/.gradle/daemon/9.4.1 Command: /usr/libexec/java_home -V
+Successfully started process 'command '/usr/libexec/java_home''
+Resolving global dependency management for project 'dataweave'
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Tasks to be executed: [task ':compileJava', task ':processResources', task ':classes', task ':compileTestJava', task ':processTestResources', task ':testClasses', task ':test']
+Tasks that were excluded: []
+Resolve mutations for :compileJava (Thread[#360,Execution worker,5,main]) started.
+:compileJava (Thread[#360,Execution worker,5,main]) started.
+
+> Task :compileJava UP-TO-DATE
+Custom actions are attached to task ':compileJava'.
+Caching disabled for task ':compileJava' because:
+  Build cache is disabled
+Skipping task ':compileJava' as it is up-to-date.
+Resolve mutations for :processResources (Thread[#360,Execution worker,5,main]) started.
+:processResources (Thread[#360,Execution worker,5,main]) started.
+
+> Task :processResources UP-TO-DATE
+Caching disabled for task ':processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':processResources' as it is up-to-date.
+Resolve mutations for :classes (Thread[#360,Execution worker,5,main]) started.
+:classes (Thread[#360,Execution worker,5,main]) started.
+
+> Task :classes UP-TO-DATE
+Skipping task ':classes' as it has no actions.
+Resolve mutations for :compileTestJava (Thread[#360,Execution worker,5,main]) started.
+:compileTestJava (Thread[#360,Execution worker,5,main]) started.
+
+> Task :compileTestJava UP-TO-DATE
+Custom actions are attached to task ':compileTestJava'.
+Caching disabled for task ':compileTestJava' because:
+  Build cache is disabled
+Skipping task ':compileTestJava' as it is up-to-date.
+Resolve mutations for :processTestResources (Thread[#360,Execution worker,5,main]) started.
+:processTestResources (Thread[#360,Execution worker,5,main]) started.
+
+> Task :processTestResources UP-TO-DATE
+Caching disabled for task ':processTestResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':processTestResources' as it is up-to-date.
+Resolve mutations for :testClasses (Thread[#360,Execution worker,5,main]) started.
+:testClasses (Thread[#360,Execution worker,5,main]) started.
+
+> Task :testClasses UP-TO-DATE
+Skipping task ':testClasses' as it has no actions.
+Resolve mutations for :test (Thread[#360,Execution worker,5,main]) started.
+:test (Thread[#360,Execution worker,5,main]) started.
+Gradle Test Executor 5 started executing tests.
+Gradle Test Executor 5 finished executing tests.
+
+> Task :test FAILED
+Caching disabled for task ':test' because:
+  Build cache is disabled
+Task ':test' is not up-to-date because:
+  Task has failed previously.
+Starting process 'Gradle Test Executor 5'. Working directory: /Users/i518630/Desktop/DataWeave Command: /Users/i518630/Library/Java/JavaVirtualMachines/corretto-21.0.4/Contents/Home/bin/java -Dorg.gradle.internal.worker.tmpdir=/Users/i518630/Desktop/DataWeave/build/tmp/test/work @/Users/i518630/.gradle/.tmp/gradle-worker-classpath2777100974027351464txt -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=BR -Duser.language=en -Duser.variant -ea worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 5'
+Successfully started process 'Gradle Test Executor 5'
+
+SqlBuilderTest > testBuildCreateTableSql() STANDARD_OUT
+    Generated SQL: CREATE TABLE test_table (id INT, name VARCHAR(255), created_at TIMESTAMP)
+
+SqlBuilderTest > testBuildCreateTableSql() FAILED
+    org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+        at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
+        at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:139)
+        at app//org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:69)
+        at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:41)
+        at app//org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+        at app//org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:195)
+        at app//com.donada.dataweave.schema.SqlBuilderTest.testBuildCreateTableSql(SqlBuilderTest.java:67)
+Generating HTML test report...
+Finished generating test html results (0.005 secs) into: /Users/i518630/Desktop/DataWeave/build/reports/tests/test
+Finished generating test XML results (0.001 secs) into: /Users/i518630/Desktop/DataWeave/build/test-results/test
+5 actionable tasks: 1 executed, 4 up-to-date
+Watched directory hierarchies: [/Users/i518630/Desktop/DataWeave]
